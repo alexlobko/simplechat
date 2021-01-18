@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, flash, g
 import sqlite3
 import os
-from FDataBase import FDataBase
+from fdatabase import FDataBase
 # конфигурация
 DATABASE = '/tmp/chat.db'
 DEBUG = True
